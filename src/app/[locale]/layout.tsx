@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import Loading from '@/app/[locale]/loading';
 import { routing } from '@/i18n/i18nNavigation';
+import { RootProvider } from '@/provider/RootProvider';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Inter } from 'next/font/google';
@@ -42,9 +43,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
-          <Suspense fallback={<Loading />}>{children}</Suspense>
-        </NextIntlClientProvider>
+        <RootProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Suspense fallback={<Loading />}>{children}</Suspense>
+          </NextIntlClientProvider>
+        </RootProvider>
       </body>
     </html>
   );
