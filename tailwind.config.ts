@@ -1,8 +1,8 @@
 import type { Config } from 'tailwindcss';
-import { nextui } from '@nextui-org/theme';
+import { heroui } from '@heroui/theme';
 
 const config: Config = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './node_modules/@nextui-org/theme/dist/components/(button|link).js'],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './node_modules/@heroui/theme/dist/components/(button|link).js'],
   theme: {
     screens: {
       'sm': '640px',
@@ -17,7 +17,7 @@ const config: Config = {
     },
     extend: {},
   },
-  plugins: [nextui({
+  plugins: [heroui({
     /**
       https://nextui.org/docs/customization/layout
      */

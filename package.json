@@ -15,10 +15,10 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@nextui-org/button": "^2.2.9",
-    "@nextui-org/link": "^2.2.7",
-    "@nextui-org/system": "^2.4.6",
-    "@nextui-org/theme": "^2.4.5",
+    "@heroui/button": "2.2.10",
+    "@heroui/link": "2.2.8",
+    "@heroui/system": "2.4.7",
+    "@heroui/theme": "2.4.6",
     "@t3-oss/env-nextjs": "^0.11.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
