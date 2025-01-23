@@ -19,9 +19,9 @@ const config: Config = {
   },
   plugins: [heroui({
     /**
-      https://nextui.org/docs/customization/layout
+      https://heroui.org/docs/customization/layout
      */
-    prefix: 'nextui',
+    prefix: 'heroui',
     addCommonColors: false,
     defaultTheme: 'light',
     defaultExtendTheme: 'light',

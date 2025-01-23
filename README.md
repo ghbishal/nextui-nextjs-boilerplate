@@ -1,13 +1,13 @@
-# NextUI Next.js 15+ Boilerplate and Starter with Tailwind CSS, next-intl, TypeScript
+# HeroUi Next.js 15+ Boilerplate and Starter with Tailwind CSS, next-intl, TypeScript
 
-🚀 Welcome to the NextUI, Next.js Production Ready Boilerplate and Starter, a powerful open-source template designed for scalable projects! This resource is packed with features to help you craft high-performance, maintainable, and delightful applications. Harness the combined capabilities of App Router, Tailwind CSS, and TypeScript ⚡️, all meticulously crafted with a developer-first approach using Next.js, TypeScript, ESLint, Husky, next-intl and Prettier. We've taken care of the heavy lifting so you can kick back, relax, and prepare to conquer the world with your extraordinary application! 🌍
+🚀 Welcome to the HeroUi, Next.js Production Ready Boilerplate and Starter, a powerful open-source template designed for scalable projects! This resource is packed with features to help you craft high-performance, maintainable, and delightful applications. Harness the combined capabilities of App Router, Tailwind CSS, and TypeScript ⚡️, all meticulously crafted with a developer-first approach using Next.js, TypeScript, ESLint, Husky, next-intl and Prettier. We've taken care of the heavy lifting so you can kick back, relax, and prepare to conquer the world with your extraordinary application! 🌍
 
 ## 📚 Features
 
 Experience developer awesomeness with these all-in-one features:
 
 - 🏎️ **[Next.js](https://nextjs.org)** - Fast by default, equipped with the App Router
-- 🏎️ **[NextUI](https://nextui.org)** - Beautiful, fast and modern React UI library
+- 🏎️ **[HeroUi](https://www.heroui.com)** - Beautiful, fast and modern React UI library
 - 💎 **[TypeScript](https://www.typescriptlang.org)** -Enhanced with the [`ts-reset`](https://github.com/total-typescript/ts-reset) library for unparalleled type safety
 - 💅 **[Tailwind CSS](https://tailwindcss.com)** - A utility-first CSS framework for rapid UI development
 - 🪡 **[Tailwind merge](https://github.com/dcastil/tailwind-merge)** - Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts.
@@ -51,7 +51,7 @@ npm run dev
 
 ## 🎨 Styling and Design System
 
-This boilerplate uses NextUI, Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system. If you want to learn more about the setup, check out this fantastic video by Vercel:
+This boilerplate uses HeroUi, Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system. If you want to learn more about the setup, check out this fantastic video by Vercel:
 
 [![Styling and Design System](https://img.youtube.com/vi/T-Zv73yZ_QI/0.jpg)](https://www.youtube.com/watch?v=T-Zv73yZ_QI&ab_channel=Vercel)
 
