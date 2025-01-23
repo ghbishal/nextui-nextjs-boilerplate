@@ -15,6 +15,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.2.9",
+    "@nextui-org/link": "^2.2.7",
     "@nextui-org/system": "^2.4.6",
     "@nextui-org/theme": "^2.4.5",
     "@t3-oss/env-nextjs": "^0.11.1",
